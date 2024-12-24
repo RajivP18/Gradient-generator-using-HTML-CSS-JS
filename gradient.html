@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Color Generator</title>
+    <link rel="stylesheet" href="gradient.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="demo" onclick="myFunction()">Gradient Color Generator</h1>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.color = "white";
+}
+</script>
+
+        <div class="color-inputs">
+            <label for="colorCount">Select number of colors:</label>
+            <select id="colorCount">
+                <option value="1">select Color</option>
+                <option value="2">2 Colors</option>
+                <option value="3">3 Colors</option>
+                <option value="4">4 Colors</option>
+                <option value="5">5 Colors</option>
+            </select>
+        </div>
+        
+        <div id="colorInputsContainer"></div>
+        
+        <button id="generateGradient">Generate Gradient</button>
+        
+        <h3>Gradient CSS Code:</h3>
+        <textarea id="cssCode" rows="4" cols="50" readonly></textarea>
+    </div>
+    <script src="gradient.js"></script>
+</body>
+</html>
