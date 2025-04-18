@@ -17,5 +17,7 @@ The background will update with the selected gradient, and the CSS code will app
 
 **Files**
 **index.html:** The main HTML structure of the application.
+
 **gradient.css:** The stylesheet defining the layout and design.
+
 **gradient.js:** The JavaScript file handling functionality and user interaction.
